@@ -9,6 +9,7 @@ const Computers = ({ isMobile }) => {
 	return (
 		<mesh>
 			<hemisphereLight intensity={4} groundColor='black' />
+			{/* for ibm computer */}
 			{/* <primitive
 				object={computer.scene}
 				scale={6}

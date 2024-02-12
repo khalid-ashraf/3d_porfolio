@@ -1,7 +1,6 @@
 import {
 	mobile,
 	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
@@ -14,15 +13,12 @@ import {
 	mongodb,
 	git,
 	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	analogdevices,
+	macys,
+	monsters,
+	crwnclothing,
 	threejs,
+	portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +42,12 @@ const services = [
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "React Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "UI Developer",
 		icon: backend,
-	},
-	{
-		title: "Content Creator",
-		icon: creator,
 	},
 ];
 
@@ -108,60 +100,37 @@ const technologies = [
 		name: "figma",
 		icon: figma,
 	},
-	{
-		name: "docker",
-		icon: docker,
-	},
 ];
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		title: "Front End Developer",
+		company_name: "Analog Devices",
+		icon: analogdevices,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "2022 - 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Developed components using the TanStack library to display data in tabular format which reduced loading times by 30%.",
+			"Increased the performance of a React application by optimizing state management and component rendering.",
+			"Created a functional search page using the Semantic UI library.",
+			"Used object-oriented programming concepts to develop UI components that could be reused across the web application.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
+			"Utilized React best practices, such as component-based development, testing, immutable state and pure functions.",
 			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Optimized React application performance and scalability by using techniques such as memoization and lazy loading.",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
+		title: "Front End Engineer",
+		company_name: "Macy's",
+		icon: macys,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "2018 - 2019",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
+			"Constructed UI framework for Omni-Channel Online & Store Purchase History, and Order Returns pages using React JS.",
+			"Optimized code with JavaScript ES6 to reduce page loading time by 15%, allowing customers to access information faster.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
 			"Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,16 +167,16 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Porfolio",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A web portfolio project is a digital showcase that allows individuals to present their skills, achievements, and work in a visually appealing and accessible manner. ",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "threejs",
 				color: "green-text-gradient",
 			},
 			{
@@ -215,13 +184,13 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: portfolio,
+		source_code_link: "https://github.com/syed-khalid/3d_porfolio",
 	},
 	{
-		name: "Job IT",
+		name: "Crown Clothing",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"A web application that allows users to buy and shop different shirts, jackets, pants and shoes. ",
 		tags: [
 			{
 				name: "react",
@@ -236,29 +205,29 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: crwnclothing,
+		source_code_link: "https://github.com/syed-khalid/crwn-clothing",
 	},
 	{
-		name: "Trip Guide",
+		name: "Monsters Rolodex",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A web app that shows a monsters rolodex and has a search feature intergrated in it.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "typescript",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "scss",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: monsters,
+		source_code_link: "https://github.com/monsters-rolodex",
 	},
 ];
 

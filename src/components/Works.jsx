@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { projects } from "../constants";
-import { fadeIn, slideIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
 	index,
