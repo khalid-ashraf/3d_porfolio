@@ -224,10 +224,11 @@ const projects = [
 			{
 				name: "scss",
 				color: "pink-text-gradient",
+				s,
 			},
 		],
 		image: monsters,
-		source_code_link: "https://github.com/monsters-rolodex",
+		source_code_link: "https://github.com/syed-khalid/monsters-rolodex",
 	},
 ];
 
