@@ -224,7 +224,6 @@ const projects = [
 			{
 				name: "scss",
 				color: "pink-text-gradient",
-				s,
 			},
 		],
 		image: monsters,
