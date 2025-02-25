@@ -23,36 +23,48 @@ import threejs from "./tech/threejs.svg";
 
 import analogdevices from "./company/analogdevices.png";
 import macys from "./company/macys.png";
+import adtLogo from "./company/adt_logo.jpg";
+import bbbLogo from "./company/bbb_logo.jpg";
+import hitachiLogo from "./company/hitachi_logo.jpg";
+import uopLogo from "./company/university_of_phoenix_logo.jpg";
+import usfoodsLogo from "./company/usfoods_logo.jpg";
+import mercuryLogo from "./company/wearemercury_logo.jpg";
 
 import portfolio from "./portfolio.png";
 import monsters from "./monsters.png";
 import crwnclothing from "./crwnclothing.png";
 
 export {
-	logo,
-	backend,
-	creator,
-	mobile,
-	web,
-	github,
-	menu,
-	close,
-	css,
-	docker,
-	figma,
-	git,
-	html,
-	javascript,
-	mongodb,
-	nodejs,
-	reactjs,
-	redux,
-	tailwind,
-	typescript,
-	threejs,
-	analogdevices,
-	macys,
-	portfolio,
-	monsters,
-	crwnclothing,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  analogdevices,
+  macys,
+  adtLogo,
+  bbbLogo,
+  hitachiLogo,
+  uopLogo,
+  portfolio,
+  usfoodsLogo,
+  mercuryLogo,
+  monsters,
+  crwnclothing,
 };
