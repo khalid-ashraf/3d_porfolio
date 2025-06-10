@@ -29,6 +29,7 @@ import hitachiLogo from "./company/hitachi_logo.jpg";
 import uopLogo from "./company/university_of_phoenix_logo.jpg";
 import usfoodsLogo from "./company/usfoods_logo.jpg";
 import mercuryLogo from "./company/wearemercury_logo.jpg";
+import wellsFargoLogo from "./company/wellsfargo.png";
 
 import portfolio from "./portfolio.png";
 import monsters from "./monsters.png";
@@ -65,6 +66,7 @@ export {
   portfolio,
   usfoodsLogo,
   mercuryLogo,
+  wellsFargoLogo,
   monsters,
   crwnclothing,
 };
